@@ -1,4 +1,4 @@
-## plt.style.use('https://gitee.com/Astro-Lee/storage/raw/master/mystyle.mplstyle')
+## plt.style.use('https://raw.githubusercontent.com/wangboting/python-style/main/pythonstyle.style')
 # https://matplotlib.org/stable/tutorials/introductory/customizing.html
 
 #### MATPLOTLIBRC FORMAT
