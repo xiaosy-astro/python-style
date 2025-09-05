@@ -1,0 +1,65 @@
+# === 基于 seaborn-v0_8-white 修改 ===
+
+# --- Figure & text ---
+figure.facecolor: white
+text.color: black
+# text.usetex : True          # 是否启用 LaTeX 渲染
+# text.latex.preamble : \usepackage{amsmath}   # 额外导言区命令，可以多行
+font.family: sans-serif
+font.sans-serif: Times New Roman
+font.size: 12
+# --- Axes ---
+axes.labelcolor: black
+axes.axisbelow: True
+axes.grid: False
+axes.facecolor: white
+axes.edgecolor: black     # 外框框线颜色
+axes.linewidth: 1.0       # 外框线宽度
+
+# --- Legend ---
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+# --- Grid ---
+grid.color: 0.85
+grid.linestyle: --
+
+# --- Lines ---
+lines.solid_capstyle: round
+lines.linewidth: 1.2
+
+# --- Ticks ---
+xtick.direction: in
+ytick.direction: in
+xtick.color: black
+ytick.color: black
+xtick.top: True
+xtick.bottom: True
+ytick.left: True
+ytick.right: True
+
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.minor.top:    True
+xtick.minor.bottom: True
+ytick.minor.left:   True
+ytick.minor.right:  True
+# 恢复正常 tick 长度（major 长，minor 短）
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.minor.size: 1
+ytick.minor.size: 1
+
+# Tick 宽度
+xtick.major.width: 0.5
+ytick.major.width: 0.5
+xtick.minor.width: 0.5
+ytick.minor.width: 0.5
+
+# 打开上下右边框 (默认 seaborn 只保留 bottom/left)
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top: True
+axes.spines.right: True
+axes.linewidth : 0.5
