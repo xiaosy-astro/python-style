@@ -6,7 +6,7 @@ text.color: black
 # text.usetex : True          # 是否启用 LaTeX 渲染
 # text.latex.preamble : \usepackage{amsmath}   # 额外导言区命令，可以多行
 font.family: serif
-font.sans-serif: Times New Roman
+font.serif: Times New Roman
 font.size: 12
 # --- Axes ---
 axes.labelcolor: black
