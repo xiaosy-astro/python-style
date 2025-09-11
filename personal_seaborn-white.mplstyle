@@ -18,7 +18,7 @@ axes.edgecolor: black     # 外框框线颜色
 axes.linewidth: 1.0       # 外框线宽度
 
 # --- Legend ---
-legend.frameon: False
+legend.frameon: True
 legend.numpoints: 1
 legend.scatterpoints: 1
 
